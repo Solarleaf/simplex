@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Environment="QUOTES_API=http://35.209.8.138"
-User=bryandixon
+User=root
 WorkingDirectory=/home/bryandixon/simple-microservice-example/ApiGateway/
 ExecStart=npm run start
 Restart=always
